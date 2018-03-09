@@ -1,0 +1,213 @@
+
+/* * @Author: Admin
+* @Date:   2018-01-05 13:45:08
+* @Last Modified by:   Admin
+* @Last Modified time: 2018-01-06 22:19:55
+ */
+@import url("base.css");
+@font-face {
+  font-family: 'iconfont';  /* project id 531110 */
+  src: url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.eot');
+  src: url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.svg#iconfont') format('svg');
+}
+
+/* tab */
+.tab{
+	width: 100%;
+	height: 0.40rem;
+	background: #f8f8f8;
+	border-top: 1px solid #acacac;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tab a{
+	display: block;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.iconfont_3{
+	width: auto;
+	height: auto;
+	font-size: 0.20rem;
+	color: #666;
+    font-family: iconfont;
+    font-style: normal;
+}
+.tab a p{
+	width: auto;
+	height: 0.14rem;
+	line-height: 0.14rem;
+	font-size: 0.12rem;
+	color: #999;
+}
+.tab a:nth-child(2) p{
+	color: #f3683f;
+}
+.tab a:nth-child(2) i{
+	color: #f3683f;
+}
+/* tab end */
+
+/* header */
+.head{
+	width: 100%;
+	height: 0.47rem;
+	background: #f3683f;
+	overflow: hidden;
+}
+.search{
+	width: 2.34rem;
+	height: 0.25rem;
+	border: 0.02rem solid #f2724d;
+	border-radius: 0.05rem;
+	background: #f18f72;
+	margin: 0.11rem auto 0;
+	display: flex;
+}
+input{
+    width: 2.02rem;
+    height: 0.27rem;
+    border: 0.01rem solid #f2724d;
+    font-size: 0.08rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 0.23rem;
+    margin-top: -0.1rem; 
+    background:  #f18f72;
+    padding-left: 0.05rem;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+    color:#fff;
+}
+::-moz-placeholder {
+    color:#fff;
+}
+::-ms-input-placeholder {
+       color:#fff;
+} 
+.iconfont_1{
+	font-family: iconfont;
+	font-style: normal;
+	font-size: 0.14rem;
+	display: block;
+	width: 0.25rem;
+	height: 0.25rem;
+	color: #fff;
+	line-height: 0.25rem;
+	text-align: center;
+}
+/* header end */
+
+/* section_top */
+.section_top{
+    width: 100%;
+	height: 0.43rem;
+	background: #f9bf3a;
+	display: flex;
+	justify-content: space-between;
+}
+.section_top p{
+	width: 50%;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.43rem;
+	text-align: center;
+	color: #f3683f;
+	font-weight: 700;
+	box-sizing: border-box;
+}
+.section_top p:first-child{
+	border-bottom: 0.01rem solid #f3683f;
+}
+/* section_top end */
+
+/* section_center */
+.section_center{
+	width: 100%;
+	height: 4.36rem;
+	display: flex;
+}
+     /* aside */
+    aside{
+        width: 25%;
+        height: 100%;
+        background: green;
+    }
+    aside ul{
+    	width: 100%;
+    	height: 10%;
+    	background: #eee;
+    	border-bottom: 0.01rem solid #dbdbdb;
+    	border-right: 0.01rem solid #dbdbdb;   	
+        box-sizing: border-box;
+    }
+    aside ul li{
+    	width: 100%;
+    	height: 100%;
+    }
+    .aside_a{
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+        font-size: 0.11rem;
+        color: #777777;
+        line-height: 0.427rem;
+        text-align: center;
+    }
+    #binggan{
+    	background: #fff;
+    	border-right: none;
+    	padding-right: 1px;
+    }
+     /* aside end */
+
+     /* section_right */
+    .section_right{
+     	width: 75%;
+     	height: 100%;
+     	display: flex;
+     	flex-wrap: wrap;
+     	align-content: flex-start;
+     }
+    .section_right ul{
+        width: 33.333333%;
+        height: 25%;
+        background: #fff;
+    }
+    .section_right ul a{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_right ul a img{
+    	margin-top: 0.1rem;
+        display: block;
+        width: 100%;
+        height: 0.6rem;
+    }
+     .section_right ul a p{
+     	width: auto;
+     	height: 0.11rem;
+     	font-size: 0.11rem;
+     	line-height: 0.15rem;
+     	color: #999999;
+     	margin-top: 0.15rem;
+     	text-align: center;
+     }
+
+     /* section_right end */
+    
+/* section_center end */

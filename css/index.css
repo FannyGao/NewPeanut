@@ -1,0 +1,735 @@
+
+/* * @Author: Admin
+* @Date:   2018-01-04 17:14:04
+* @Last Modified by:   Admin
+* @Last Modified time: 2018-01-06 22:14:22
+*/ 
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 531110 */
+  src: url('https://at.alicdn.com/t/font_531110_vofvua377p7m0a4i.eot');
+  src: url('https://at.alicdn.com/t/font_531110_vofvua377p7m0a4i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531110_vofvua377p7m0a4i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531110_vofvua377p7m0a4i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531110_vofvua377p7m0a4i.svg#iconfont') format('svg');
+}
+
+
+.head{
+	width: 100%;
+	height: 0.47rem;
+	background: #f3683f;
+	overflow: hidden;
+}
+.search{
+	width: 2.34rem;
+	height: 0.25rem;
+	border: 0.02rem solid #f2724d;
+	border-radius: 0.05rem;
+	background: #f18f72;
+	margin: 0.11rem auto 0;
+	display: flex;
+}
+input{
+    width: 2.02rem;
+    height: 0.27rem;
+    border: 0.01rem solid #f2724d;
+    font-size: 0.08rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 0.23rem;
+    margin-top: -0.1rem; 
+    background:  #f18f72;
+    padding-left: 0.05rem;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+    color:#fff;
+}
+::-moz-placeholder {
+    color:#fff;
+}
+::-ms-input-placeholder {
+       color:#fff;
+} 
+.iconfont_1{
+	font-family: iconfont;
+	font-style: normal;
+	font-size: 0.14rem;
+	display: block;
+	width: 0.25rem;
+	height: 0.25rem;
+	color: #fff;
+	line-height: 0.25rem;
+	text-align: center;
+}
+/* head 结束 */
+
+/* tab栏 开始 */
+.tab{
+	width: 100%;
+	height: 0.40rem;
+	background: #f8f8f8;
+	border-top: 1px solid #acacac;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tab a{
+	display: block;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.iconfont_3{
+	width: auto;
+	height: auto;
+	font-size: 0.20rem;
+	color: #666;
+    font-family: iconfont;
+    font-style: normal;
+}
+.tab a p{
+	width: auto;
+	height: 0.14rem;
+	line-height: 0.14rem;
+	font-size: 0.12rem;
+	color: #999;
+}
+.tab a:first-child p{
+	color: #f3683f;
+}
+.tab a:first-child i{
+	color: #f3683f;
+}
+/* tab栏 结束 */
+
+/* 导航 开始 */
+.daohang{
+	width: 100%;
+	height: 0.43rem;
+	background: #f9bf3a;
+	display: flex;
+	justify-content: space-around;
+}
+.daohang a{
+	display: block;
+	width: 0.3rem;
+	height: 0.43rem;
+	font-size: 0.14rem;
+	color: #f3683f;
+	line-height: 0.4rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+.daohang a:first-child{
+	border-bottom: 0.02rem solid #f3683f;
+}
+.daohang_yuan{
+	width: 100%;
+	height: 1rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+.daohang_yuan li{
+	width: 0.66rem;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.daohang_yuan li a:first-child{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #7ea940;
+	border-radius: 50%;
+	margin: 0.19rem auto 0;
+	display: flex;	
+	justify-content: space-around;
+}
+.iconfont_2{
+	width: auto;
+	height: auto;
+	font-size: 0.25rem;
+	color: #fff;
+    font-family: iconfont;
+    font-style: normal;
+    align-self: center;
+}
+.daohang_yuan li a:last-child p{
+    width: auto;
+    height: 0.12rem;
+    font-size: 0.1rem;
+    color: #666;
+    padding-top: 0.04rem;
+}
+#huang{
+	background: #f9bf3a;
+}
+#hong{
+	background: #f4683e;
+}
+#lan{
+	background: #49adef;
+}
+#lan .iconfont_2{
+	font-size: 0.35rem;
+}
+/* 导航 结束 */
+
+/* 手机专享价 开始 */
+.zx{
+	width: 100%;
+	height: auto;
+}
+.zx_top{
+	width: 100%;
+	height: 0.43rem;
+	background: #f6f6f6;
+	padding: 0 0.11rem 0 0.11rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+.zx_top p{
+	width: auto;
+	height: 0.13rem;
+	color: #666;
+	font-size: 0.13rem;
+	line-height: 0.13rem;
+	font-weight: 300;
+}
+.zx_top a{
+	display: block;
+	width: auto;
+	height: 0.11rem;
+	font-size: 0.11rem;
+	color: #666;
+	line-height: 0.11rem;
+}
+.zx_bottom{
+	width: 100%;
+	height: 2.67rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+}
+.zx_bottom a{
+	display: block;
+	width: 43%;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.zx_bottom_img{
+	display: block;
+	width: 100%;
+	height: 1.37rem;
+	margin-top: 20%;
+}
+.zx_bottom_p{
+	width: auto;
+	height: auto;
+	margin-top: 0.1rem;
+    font-size: 0.13rem;
+    line-height: 0.2rem;
+    color: #666;
+}
+ .price{
+	display: block;
+	width: auto;
+	height: 0.16rem;
+	margin-top: 0.15rem;
+	font-size: 0.16rem;
+	color: #f3683f;
+	font-style: normal;
+	line-height: 0.16rem;
+	font-weight: 700;
+}
+.zx_bottom li:last-child{
+	width: 55%;
+	height: 100%;
+	background: #f6f6f6;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.zx_bottom li:last-child span:first-child{
+	display: block;
+	width: 100%;
+	height: 44%;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.zx_bottom li:last-child span:first-child a{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.zx_bottom li:last-child span:first-child img{
+	display: block;
+	width: 0.85rem;
+	height: 0.85rem;
+}
+.zx_bottom li:last-child span:first-child p{
+	width: auto;
+	height: auto;
+	/* margin-top: 0.1rem; */
+    font-size: 0.13rem;
+    line-height: 0.20rem;
+    color: #666;
+}
+.zx_bottom li:last-child span:last-child{
+	display: block;
+	width: 100%;
+	height: 55%;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-between;
+}
+.zx_bottom li:last-child span:last-child a{
+	display: block;
+	width: 49%;
+	height: 100%;
+	background: #fff;
+}
+.bottomright{
+	height: 0.87rem;
+	margin-top: 0;
+}
+.price_1{
+	margin-top:0.05rem;
+}
+/* 手机专享价 结束 */
+
+/* 秒杀专场 开始 */
+.miaosha{
+	width: 100%;
+	height: auto;
+}
+.miaosha_bottom{
+	width: 100%;
+	height: 2.6rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+}
+.miaosha_bottom li{
+	width: 49%;
+	height: 100%;
+	background: #fff;
+	padding-left: 0.05rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.miaosha_bottom li a:first-child{
+	width: auto;
+	height: 0.16rem;
+	line-height: 0.16rem;
+	font-size: 0.16rem;
+	color: #f3683f;
+	font-weight: 700;
+}
+.miaosha_bottom li a:nth-child(2){
+	width: auto;
+	height: 0.13rem;
+	line-height: 0.13rem;
+	font-size: 0.13rem;
+	color: #999;
+}
+.miaosha_bottom li img:last-child{
+	display: block;
+	width: 1.25rem;
+	height: 1.25rem;
+    align-self: flex-end;
+}
+/* 秒杀专场 结束 */
+
+/* 限时促销 开始 */
+.cx{
+	width: 100%;
+	height: auto;
+}
+.cx_bottom{
+	width: 100%;
+	height: 2.60rem;
+	background: #f6f6f6;
+	display: flex; 
+    justify-content: space-around;
+}
+.cx_b_left{
+	display: block;
+	width: 40%;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.cx_b_left span{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cx_b_left span p:first-child{
+	width: auto;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #666;
+}
+.cx_b_left span p:last-child{
+	width: auto;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #999;
+	margin-top: 0.09rem;
+}
+.cx_b_left img{
+	width: 1.28rem;
+	height: 1.28rem;
+	display: block;
+} 
+.cx_price{
+	width: 0.72rem;
+	height: 0.25rem;
+	border-radius: 0.15rem;
+	background: #f4683e;
+	font-size: 0.14rem;
+	line-height: 0.25rem;
+	text-align: center;
+	color: #fff;
+}
+.cx_b_right{
+	width: 58%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+}
+.cx_bottom_a{
+	display: block;
+	width: 49%;
+	height: 49.5%;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.cx_bottom_a img{
+	display: block;
+	width: 100%;
+	height: 0.91rem;
+}
+.cx_bottom_a p{
+	width: 100%;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #666;
+	text-align: center;
+}
+.cx_bottom_a i{
+	width: 100%;
+	height: 0.14rem;
+	font-size: 0.14rem;
+	line-height: 0.14rem;
+	color: #f4683e;
+	font-style: normal;
+	text-align: center;
+}
+/* 限时促销 结束 */
+
+/* 多买多折 开始 */
+.zhekou{
+	width: 100%;
+	height: auto;
+}
+.zhekou_bottom{
+	width: 100%;
+	height: 3.12rem;
+	background:#f6f6f6;
+	display: flex;
+	justify-content: space-around;
+}
+.zhekou_bottom li{
+	width: 49%;
+	height: 100%;
+	background: #f6f6f6;
+}
+.zk_b_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zk_b_left a:first-child{
+	width: 100%;
+	height: 2.07rem;
+    background: #fff;
+	display: flex;
+}
+.zk_b_left a:first-child img{
+	display: block;
+	width: 100%;
+	height: 1.56rem;
+	align-self: center;
+}
+.zk_b{
+	width: 100%;
+	height: 32.666666%;
+	background: #fff;
+	display: flex;
+	align-items: center;
+}
+.zk_left_box p:first-child{
+    width: 0.9rem;
+	height: auto;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #999;
+	text-align: center;
+}
+.zk_left_box p:last-child{
+    width: 0.94rem;
+	height: 0.09rem;
+	font-size: 0.09rem;
+	line-height: 0.09rem;
+	color: #f3683f;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.zk_left_box p:last-child i{
+	width: 0.25rem;
+	height: 0.17rem;
+	border-radius: 0.05rem;
+	background: #f3683f;
+	color: #fff;
+	width: 0.94rem;
+	height: 0.09rem;
+	font-size: 0.09rem;
+	line-height: 0.09rem;
+	text-align: center;
+	font-style: normal;
+}
+.zk_b_img{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.zk_b_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zk_b_right a{
+	width: 100%;
+	height: 32.666666%;
+	background: #fff;
+}
+/* 多买多折 结束 */
+
+/* 组合优惠 开始 */
+.youhui{
+	width: 100%;
+	height: auto;
+}
+.youhui_bottom{
+	width: 100%;
+	height: 2.1rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+}
+.youhui_bottom a{
+	display: block;
+	width: 32.666666%;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.youhui_bottom a span{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.youhui_bottom a span p{
+    width: 0.38rem;
+	height: 0.17rem;
+	font-size: 0.17rem;
+	line-height: 0.17rem;
+	color: #7ea940;
+	text-align: center;
+}
+.youhui_bottom a span i{
+	width: auto;
+	height: 0.11rem;
+	color: #999;
+	font-size: 0.11rem;
+	line-height: 0.11rem;
+	text-align: center;
+	font-style: normal;
+	margin-top: 0.06rem;
+}
+.youhui_bottom a img{
+	display: block;
+	width: 100%;
+	height: 1.05rem;
+}
+.youhui_price{
+    width: 0.61rem;
+	height: 0.22rem;
+	border-radius: 0.05rem;
+	background: #f3683f;
+	color: #fff;
+	font-size: 0.11rem;
+	line-height: 0.22rem;
+	text-align: center;
+	font-style: normal;
+}
+/* 组合优惠 结束 */
+
+/* 进口零食 开始 */
+.jk{
+	width: 100%;
+	height: auto;
+}
+.jk_bottom{
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+}
+.jk_b{
+	width: 3.17rem;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+}
+.jk_b .jk_b_center{
+	width: 100%;
+	height: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 3px;
+	background: #f6f6f6;
+	box-sizing: border-box;
+}
+.jk_b .jk_b_center a{
+	display: block;
+	width: 32.666666%;
+	height: 100%;
+}
+.jk_b .jk_b_center a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jk_b_bottom{
+	width: 100%;
+	height: 2.12rem;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.jk_b_bottom a{
+	display: block;
+	width: 25%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.jk_b_bottom a img{
+	width: 0.73rem;
+	height: 0.76rem;
+}
+.jk_b_bottom a p{
+	width: auto;
+	height: 0.13rem;
+	font-size: 0.13rem;
+	line-height: 0.13rem;
+	color: #999;
+}
+/* 进口零食 结束 */
+
+/* 猜你喜欢 开始 */
+.guess{
+	width: 100%;
+    height: auto;
+    padding-bottom: 0.42rem;
+}
+.like{
+	margin: 0 auto;
+}
+.guess_bottom{
+	width: 100%;
+	height: 2.3rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+}
+.guess_bottom a{
+	display: block;
+	width: 46%;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.guess_bottom a img{
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+
+}
+.guess_bottom a p{
+	width: auto;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	color: #999;
+}
+.guess_bottom a span{
+	display: block;
+	width: auto;
+	height: 0.13rem;
+	font-size: 0.13rem;
+	line-height: 0.13rem;
+	color: #f3683f;
+}
+.guess_bottom a span i{
+    width: auto;
+	height: 0.11rem;
+	color: #999;
+	font-size: 0.11rem;
+	line-height: 0.11rem;
+	font-style: normal;
+	text-decoration: line-through;
+}
+/* 猜你喜欢 结束 

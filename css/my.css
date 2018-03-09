@@ -1,0 +1,268 @@
+/*
+* @Author: Admin
+* @Date:   2018-01-05 17:50:04
+* @Last Modified by:   Admin
+* @Last Modified time: 2018-01-07 17:10:26
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 531110 */
+  src: url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.eot');
+  src: url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_531110_9esbilakix0w9udi.svg#iconfont') format('svg');
+}
+
+body{
+	height: 8.7rem;
+}
+/* tab */
+.tab{
+	width: 100%;
+	height: 0.40rem;
+	background: #f8f8f8;
+	border-top: 1px solid #acacac;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tab a{
+	display: block;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.iconfont_3{
+	width: auto;
+	height: auto;
+	font-size: 0.20rem;
+	color: #666;
+    font-family: iconfont;
+    font-style: normal;
+}
+.tab a p{
+	width: auto;
+	height: 0.14rem;
+	line-height: 0.14rem;
+	font-size: 0.12rem;
+	color: #999;
+}
+.tab a:last-child p{
+	color: #f3683f;
+}
+.tab a:last-child i{
+	color: #f3683f;
+}
+/* tab end */
+
+/* header */
+header{
+	width: 100%;
+	height: auto;
+}
+.header_top{
+	width: 100%;
+	height: 1.73rem;
+	background: yellow;
+}
+.header_top_img{
+	width: 100%;
+	height: 100%;
+}
+.header_top_img li{
+	width: 100%;
+	height: 100%;
+	background: url('../img/images/user-bg.png') no-repeat center center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header_top_img li img{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	margin-top: 0.23rem;
+}
+.num{
+    width: auto;
+    height: 0.11rem;
+    color: #fff;
+    font-size: 0.11rem;
+}
+
+.user{
+	display: flex;
+	justify-content: center;
+	margin-top: 0.1rem;
+}
+.huiyuan{
+	display: block;
+	width: 0.56rem;
+	height: 0.19rem;
+	background: #f9bf3a;
+	line-height: 0.19rem;
+	font-size: 0.11rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.05rem;
+	font-style: normal;
+}
+.header_bottom{
+	width: 100%;
+	height: 0.6rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+}
+.header_l{
+	width: 1.66rem;
+	height: 0.6rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header_l p{
+	width: auto;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #999;
+	line-height: 0.12rem;
+}
+.header_l p span{
+	color: #555;
+}
+/* header end */
+
+/* section */
+section{
+	width: 100%;
+	height: 1.88rem;
+	border-bottom: 0.01px solid #dbdbdb;
+	background: #f6f6f6;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.list{
+	width: 100%;
+	height: 0.58rem;
+	background: #fff;
+	border-bottom: 1px solid #dbdbdb;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:0 0.1rem 0 0.1rem;
+    box-sizing: border-box;
+}
+.list li{
+	display: flex;
+	align-items: center;
+}
+.list_icon{
+	width: 0.35rem;
+	height: 0.35rem;
+	background: #f9bf3a;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.iconfont{
+	font-family: iconfont;
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.35rem;
+	font-style: normal;
+}
+
+.list li a:last-child{
+	display: block;
+	width: auto;
+	height: 0.11rem;
+	color: #333;
+	line-height: 0.11rem;
+	font-size: 0.11rem;
+	margin-left: 0.05rem;
+}
+.list a:last-child{
+	width: auto;
+	height: 0.20rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.iconfont_1{
+	font-family: iconfont;
+	font-size: 0.16rem;
+	color: #cccccc;
+	line-height: 0.2rem;
+	font-style: normal;
+}
+#icon1{
+	background: #4bb3f7;
+}
+#icon2{
+	background: #7ea940;
+}
+#icon2 .iconfont{
+	font-size: 0.16rem;
+}
+
+
+/* section end */
+
+/* section_1 */
+.section_1{
+	height: 2.46rem;
+}
+#icon3{
+	background: #4bb3f7;
+}
+#icon4{
+	background: #f0506e;
+}
+#icon5{
+	background: #f4683e;
+}
+/* section_1 end */
+
+/* section_2 */
+.section_3{
+	height: 0.71rem;
+}
+/* section_2 end */
+
+/* footer */
+footer{
+	width: 100%;
+	height: 0.96rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.out{
+	display: block;
+	width: 2.88rem;
+	height: 0.48rem;
+	/* background: #ff3861; */
+	background:  #f3683f;
+	border-radius: 0.05rem;
+}
+.out p{
+	width: auto;
+	height: 0.16rem;
+	line-height: 0.16rem;
+	color: #fff;
+	font-size: 0.16rem;
+	line-height: 0.48rem;
+	text-align: center;
+}
+/* footer end */
